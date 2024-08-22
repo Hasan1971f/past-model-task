@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
+     <link rel="stylesheet" href="styles/style.css">
     <title>Hockey</title>
 </head>
 <body>
@@ -108,7 +108,7 @@
            </div>
     </header>
    
-   <main class="container mx-auto h-[5000rem]">
+   <main class="container px-12 lg:px-0 mx-auto h-[5000rem]">
      <!-- state section -->
       <section class=" mt-24">
          <div class="border-y-2 border-dashed py-12 text-center ">
@@ -150,6 +150,41 @@
           </div>
          </div>
       </section>
+      <!-- programme section -->
+       <section class="24">
+        <div class="border-y-2 border-dashed py-12 text-center ">
+          <h3 class="text-3xl font-bold mb-3">Program Sections</h3>
+          <p class="opacity-80 w-1/2 mx-auto">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-6">
+          
+          <div class="rounded-lg w-full junior-programme flex flex-col justify-end items-center p-24 text-white">
+           <div>
+            <h5 class="font-extrabold	text-2xl mb-4">Junior-Program</h5>
+            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+              enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <button class="btn btn-error mt-4 text-white">Register Now!</button>
+           </div>
+          </div>
+          <div class="rounded-lg w-full senior-programme flex flex-col justify-end items-center p-24 text-white">
+            <div>
+             <h5 class="font-extrabold	text-2xl mb-4">senior-Program</h5>
+             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+               <button class="btn btn-error mt-4 text-white">Register Now!</button>
+            </div>
+           </div>
+           <div class="rounded-lg w-full lg:col-span-2 pro-programme flex flex-col justify-end items-start  p-24 text-white">
+            <div>
+             <h5 class="font-extrabold	text-2xl mb-4">professional-Program</h5>
+             <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+               enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+               <button class="btn btn-error mt-4 text-white">Register Now!</button>
+            </div>
+           </div>
+
+        </div>
+       </section>
    </main>
     <footer>
 
