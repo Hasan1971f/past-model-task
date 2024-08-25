@@ -108,7 +108,7 @@
            </div>
     </header>
    
-   <main class="container px-12 lg:px-0 mx-auto h-[5000rem]">
+   <main class="container px-12 lg:px-0 mx-auto ">
      <!-- state section -->
       <section class=" mt-24">
          <div class="border-y-2 border-dashed py-12 text-center ">
@@ -504,13 +504,43 @@
           </div>
         </div>
         <div class="lg:col-span-2">
-          forms
+         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+           <div>
+            <label class="text-lg font-semibold " for="">Your Name</label>
+            <br>
+            <input class=" mb-3 p-4 border-none outline-none bg-fuchsia-400 rounded-lg w-full" type="text" placeholder="Enter your full name">
+           </div>
+           <div>
+            <label class="text-lg font-semibold " for="">Your Email</label>
+            <br>
+            <input class=" mb-3 p-4 border-none outline-none bg-fuchsia-400 rounded-lg w-full" type="text" placeholder="Enter your email">
+           </div>
+           <div>
+            <label class="text-lg font-semibold " for="">Subject</label>
+            <br>
+            <input class=" mb-3 p-4 border-none outline-none bg-fuchsia-400 rounded-lg w-full" type="text" placeholder="Enter your subject">
+           </div>
+
+           <div>
+            <label class="text-lg font-semibold " for="">Phone Number</label>
+            <br>
+            <input class=" mb-3 p-4 border-none outline-none bg-fuchsia-400 rounded-lg w-full" type="text" placeholder="Enter Phone number">
+           </div>
+           <div class="lg:col-span-2">
+            <label class="text-lg font-semibold " for="">Message</label>
+            <br>
+            <textarea rows="7" class=" mb-3 p-4 border-none outline-none bg-fuchsia-400 rounded-lg w-full" placeholder="Your message" name="" id=""></textarea>
+           </div>
+           <button class="btn btn-error text-white font-bold">
+            Send Message
+           </button>
+           
+         </div>
         </div>
      </div>
     </section>
    </main>
-    <footer>
-
-    </footer>
+    <footer class=" bg-slate-950 h-96 w-full">
+  
 </body>
 </html>
